@@ -3,367 +3,271 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shifaah Hospital Lokoja | Compassionate, Advanced Care</title>
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Source+Sans+3:wght@300;400;600;700&display=swap"
+    <meta
+      name="description"
+      content="Shifaah Hospital in Lokoja, Kogi State provides obstetrics and gynaecology, paediatrics, emergency care, diagnostics, surgery and general medical services."
     />
+    <title>Shifaah Hospital Lokoja | Professional Care in Kogi State</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="images/fav/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="images/fav/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="images/fav/favicon-16x16.png" />
+    <link rel="manifest" href="images/fav/site.webmanifest" />
+    <link rel="shortcut icon" href="images/fav/favicon.ico" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="topbar">
+    <header class="topbar" id="home">
       <div class="container topbar__inner">
-        <div class="topbar__left">
-          <span>24/7 Emergency Care</span>
-          <span class="dot"></span>
-          <span>BEHIND SAATOF HOTEL, NIWA QTRS, LOKOJA</span>
-        </div>
-        <div class="topbar__right">
-          <a href="tel:08065521099">Call: 0806-552-1099</a>
+        <p>24-hour hospital care in Lokoja, Kogi State</p>
+        <div class="topbar__links" aria-label="Urgent contact options">
+          <a href="tel:+234805521099">+234-80-552-1099</a>
+          <a href="tel:+2348036415952">+234-803-641-5952</a>
         </div>
       </div>
     </header>
 
-    <nav class="nav">
+    <nav class="nav" aria-label="Primary navigation">
       <div class="container nav__inner">
-        <div class="brand">
-          <div class="brand__logo">SH</div>
-          <div class="brand__text">
-            <strong>Shifaah Hospital Lokoja</strong>
-            <span>Compassionate Care, Advanced Medicine</span>
-          </div>
-        </div>
+        <a class="brand" href="#home" aria-label="Shifaah Hospital home">
+          <img class="brand__logo" src="images/shifaah_logo.png" alt="Shifaah Hospital logo" />
+          <span class="brand__text">
+            <strong>Shifaah Hospital</strong>
+            <small>Lokoja, Kogi State</small>
+          </span>
+        </a>
         <div class="nav__links">
           <a href="#services">Services</a>
-          <a href="#doctors">Doctors</a>
-          <a href="#resources">Resources</a>
-          <a href="#locations">Locations</a>
-          <a class="btn btn--ghost" href="#contact">Contact</a>
-          <a class="btn btn--primary" href="https://example.com/book-appointment">Book Appointment</a>
+          <a href="#care">Care</a>
+          <a href="#consultation">Consultation</a>
+          <a href="#contact">Contact</a>
         </div>
       </div>
     </nav>
 
     <main>
-      <section class="hero">
-        <div class="hero__overlay"></div>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero__media" aria-hidden="true"></div>
+        <div class="hero__shade" aria-hidden="true"></div>
         <div class="container hero__content reveal">
           <div class="hero__copy">
-            <p class="eyebrow">Trusted care in Kogi State</p>
-            <h1>Modern medical care, grounded in compassion.</h1>
+            <p class="eyebrow">Shifaah Hospital Lokoja</p>
+            <h1 id="hero-title">Trusted medical care for families in Kogi State.</h1>
             <p class="lead">
-              Shifaah Hospital Lokoja delivers comprehensive medical, surgical, pediatric, and
-              maternal care with on-site laboratory, imaging, and pharmacy services.
+              Professional hospital care in a Nigerian setting, with focused support for mothers,
+              children, families and urgent medical needs.
             </p>
             <div class="hero__actions">
-              <a class="btn btn--primary" href="https://example.com/book-appointment"
-                >Book Appointment</a
-              >
-              <a class="btn btn--secondary" href="#services">Explore Services</a>
-            </div>
-            <div class="hero__trust">
-              <div>
-                <strong>24/7</strong>
-                <span>Open daily</span>
-              </div>
-              <div>
-                <strong>On-site Lab</strong>
-                <span>Fast diagnostics</span>
-              </div>
-              <div>
-                <strong>On-site Imaging</strong>
-                <span>Clear results</span>
-              </div>
+              <a class="btn btn--primary" href="#consultation">Request Consultation</a>
+              <a class="btn btn--light" href="tel:+234805521099">Call Hospital</a>
             </div>
           </div>
-          <div class="hero__card">
-            <h3>Quick Actions</h3>
-            <div class="quick-actions">
-              <a href="https://example.com/book-appointment">Book Appointment</a>
-              <a href="#doctors">Find a Doctor</a>
-              <a class="danger" href="tel:08065521099">Emergency Call</a>
-              <a href="#resources">Billing & Insurance</a>
+          <aside class="urgent-panel" aria-label="Fast contact information">
+            <p class="urgent-panel__label">Need care now?</p>
+            <h2>Speak with the hospital</h2>
+            <div class="contact-stack">
+              <a href="tel:+234805521099">Phone: +234-80-552-1099</a>
+              <a href="tel:+2348036415952">Phone: +234-803-641-5952</a>
+              <a href="https://wa.me/2349162818631">WhatsApp: +234 916-281-8631</a>
             </div>
-            <div class="hero__note">
-              <strong>Need help now?</strong>
-              <p>Call 0806-552-1099 or 0803-641-5952</p>
-            </div>
-          </div>
+            <p class="fineprint">For emergencies, call first before coming in.</p>
+          </aside>
         </div>
       </section>
 
-      <section class="section section--light" id="services">
-        <div class="container reveal">
-          <div class="section__header">
-            <p class="eyebrow">Services & Specialties</p>
-            <h2>Comprehensive care for every stage of life</h2>
+      <section class="section section--intro" id="care">
+        <div class="container intro-grid reveal">
+          <div>
+            <p class="eyebrow">Care Close To Home</p>
+            <h2>Clinical service with warmth, clarity and dignity.</h2>
             <p>
-              From cardiology and neurology to maternal and newborn care, Shifaah Hospital Lokoja
-              provides holistic treatment under one roof.
+              Shifaah Hospital serves patients from Lokoja and surrounding communities with
+              practical, responsive care. Patients can reach the hospital by phone or WhatsApp for
+              consultation requests, enquiries and visit guidance.
             </p>
           </div>
-          <div class="grid grid--3">
-            <article class="card">
-              <img
-                src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=900&q=80"
-                alt="Medical services"
-              />
-              <h3>Medical Services</h3>
-              <p>Cardiology, gastroenterology, neurology, psychiatry, family medicine.</p>
-            </article>
-            <article class="card">
-              <img
-                src="https://images.unsplash.com/photo-1551601651-2a8555f1a136?auto=format&fit=crop&w=900&q=80"
-                alt="Surgical services"
-              />
-              <h3>Surgical Services</h3>
-              <p>Urology, anesthesia, radiology, pediatric surgery, pathology.</p>
-            </article>
-            <article class="card">
-              <img
-                src="https://images.unsplash.com/photo-1580281657521-7b7f5a1f1f1f?auto=format&fit=crop&w=900&q=80"
-                alt="Pediatric services"
-              />
-              <h3>Pediatrics</h3>
-              <p>Neonatology, pulmonology, nephrology, gastroenterology.</p>
-            </article>
-            <article class="card">
-              <img
-                src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=900&q=80"
-                alt="Maternal care"
-              />
-              <h3>Maternal & Newborn Care</h3>
-              <p>ANC, family planning, immunization, newborn care.</p>
-            </article>
-            <article class="card">
-              <img
-                src="https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?auto=format&fit=crop&w=900&q=80"
-                alt="Imaging services"
-              />
-              <h3>On-site Imaging</h3>
-              <p>Timely radiology support for accurate diagnosis.</p>
-            </article>
-            <article class="card">
-              <img
-                src="https://images.unsplash.com/photo-1580281658628-a5a7b78d0f4d?auto=format&fit=crop&w=900&q=80"
-                alt="Laboratory services"
-              />
-              <h3>On-site Laboratory</h3>
-              <p>Fast test results to accelerate clinical decisions.</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section section--split">
-        <div class="container split reveal">
-          <div class="split__image">
-            <img
-              src="https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?auto=format&fit=crop&w=1200&q=80"
-              alt="Modern hospital interior"
-            />
-          </div>
-          <div class="split__content">
-            <p class="eyebrow">Why Choose Shifaah</p>
-            <h2>Care that feels personal, outcomes that are clinical</h2>
-            <p>
-              We blend skilled specialists with warm patient support. Our facility is designed for
-              comfort, safety, and fast decision-making.
-            </p>
-            <div class="stats">
-              <div>
-                <strong>24/7</strong>
-                <span>Always open</span>
-              </div>
-              <div>
-                <strong>On-site</strong>
-                <span>Lab & Imaging</span>
-              </div>
-              <div>
-                <strong>Trusted</strong>
-                <span>Community care</span>
-              </div>
+          <div class="feature-list" aria-label="Hospital highlights">
+            <div>
+              <strong>24 hours</strong>
+              <span>Open Monday to Sunday</span>
             </div>
-            <a class="btn btn--primary" href="#contact">Request Consultation</a>
+            <div>
+              <strong>Family care</strong>
+              <span>Women, children and general medicine</span>
+            </div>
+            <div>
+              <strong>Lokoja location</strong>
+              <span>Behind Saatof Hotel, NIWA quarters</span>
+            </div>
           </div>
         </div>
       </section>
 
-      <section class="section section--light" id="doctors">
+      <section class="section section--services" id="services">
         <div class="container reveal">
           <div class="section__header">
-            <p class="eyebrow">Doctors & Care Team</p>
-            <h2>Experienced specialists dedicated to your wellbeing</h2>
-            <p>Placeholders shown below. Provide names and bios when ready.</p>
-          </div>
-          <div class="grid grid--3">
-            <article class="card card--profile">
-              <img
-                src="https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&w=900&q=80"
-                alt="Doctor profile"
-              />
-              <h3>Dr. Amina Yusuf</h3>
-              <p class="muted">Consultant Physician</p>
-              <p>Focus: cardiology and family medicine. 10+ years of clinical practice.</p>
-            </article>
-            <article class="card card--profile">
-              <img
-                src="https://images.unsplash.com/photo-1527613426441-4da17471b66d?auto=format&fit=crop&w=900&q=80"
-                alt="Doctor profile"
-              />
-              <h3>Dr. Kofi Adeyemi</h3>
-              <p class="muted">Surgeon</p>
-              <p>Focus: pediatric surgery and urology. Patient-centered surgical care.</p>
-            </article>
-            <article class="card card--profile">
-              <img
-                src="https://images.unsplash.com/photo-1580281657521-7b7f5a1f1f1f?auto=format&fit=crop&w=900&q=80"
-                alt="Doctor profile"
-              />
-              <h3>Dr. Laila Bello</h3>
-              <p class="muted">Obstetrics & Gynecology</p>
-              <p>Focus: maternal and newborn care, antenatal services.</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section section--accent" id="resources">
-        <div class="container reveal">
-          <div class="section__header">
-            <p class="eyebrow">Patient Resources</p>
-            <h2>Everything you need, before and after your visit</h2>
-          </div>
-          <div class="grid grid--3">
-            <article class="card card--flat">
-              <h3>Patient Portal</h3>
-              <p>Access test results and manage appointments online.</p>
-              <a href="https://example.com/patient-portal">Open Portal</a>
-            </article>
-            <article class="card card--flat">
-              <h3>Insurance & Billing</h3>
-              <p>Most major plans accepted. Contact us for verification.</p>
-              <a href="#contact">Get Assistance</a>
-            </article>
-            <article class="card card--flat">
-              <h3>Forms & Policies</h3>
-              <p>Download admission forms and privacy policy.</p>
-              <a href="#contact">Request Documents</a>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section section--light">
-        <div class="container reveal">
-          <div class="section__header">
-            <p class="eyebrow">Patient Stories</p>
-            <h2>Trusted by families across Lokoja</h2>
-          </div>
-          <div class="grid grid--3">
-            <article class="card">
-              <p>
-                “From the moment we arrived, the staff treated us with kindness and urgency.
-                Exceptional care.”
-              </p>
-              <strong class="muted">— A. Ibrahim</strong>
-            </article>
-            <article class="card">
-              <p>
-                “The doctors explained everything clearly. We felt safe and supported throughout our
-                visit.”
-              </p>
-              <strong class="muted">— M. Okoro</strong>
-            </article>
-            <article class="card">
-              <p>
-                “Clean facility, fast diagnostics, and professional staff. Highly recommended.”
-              </p>
-              <strong class="muted">— H. Sule</strong>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section section--split" id="locations">
-        <div class="container split reveal">
-          <div class="split__content">
-            <p class="eyebrow">Locations & Hours</p>
-            <h2>Visit us anytime</h2>
+            <p class="eyebrow">Services Offered</p>
+            <h2>Specialist care led by the needs of the family.</h2>
             <p>
-              Shifaah Hospital Lokoja is open 24/7, including weekends and public holidays. We are
-              located behind Saatof Hotel, Niwa Qtrs, Lokoja, Kogi State.
+              Obstetrics and gynaecology and paediatrics are central services, supported by a wider
+              range of hospital care for diagnosis, treatment and follow-up.
             </p>
-            <div class="location__details">
-              <div>
-                <strong>Address</strong>
-                <span>BEHIND SAATOF HOTEL, NIWA QTRS, LOKOJA, Kogi, Nigeria</span>
-              </div>
-              <div>
-                <strong>Hours</strong>
-                <span>24 hours, Monday to Sunday</span>
-              </div>
+          </div>
+          <div class="service-grid">
+            <article class="service-card service-card--featured">
+              <span>01</span>
+              <h3>Obstetrics & Gynaecology</h3>
+              <p>
+                Antenatal care, delivery support, gynaecological consultation, family planning and
+                maternal health services.
+              </p>
+            </article>
+            <article class="service-card service-card--featured">
+              <span>02</span>
+              <h3>Paediatrics</h3>
+              <p>
+                Child health consultations, newborn care, immunisation guidance and treatment for
+                common childhood illnesses.
+              </p>
+            </article>
+            <article class="service-card">
+              <span>03</span>
+              <h3>Emergency Care</h3>
+              <p>Prompt medical attention for urgent illness, injury and stabilisation needs.</p>
+            </article>
+            <article class="service-card">
+              <span>04</span>
+              <h3>General Medicine</h3>
+              <p>Consultations, chronic disease support, family medicine and routine care.</p>
+            </article>
+            <article class="service-card">
+              <span>05</span>
+              <h3>Surgical Care</h3>
+              <p>Assessment and surgical support with careful pre-care and follow-up.</p>
+            </article>
+            <article class="service-card">
+              <span>06</span>
+              <h3>Diagnostics</h3>
+              <p>Laboratory and imaging support to help clinicians make timely decisions.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section image-band" aria-label="Hospital consultation room">
+        <div class="container image-band__inner reveal">
+          <div class="image-band__photo">
+            <img src="images/372740.jpg" alt="Doctor in a Shifaah Hospital consultation room" />
+          </div>
+          <div class="image-band__content">
+            <p class="eyebrow">Patient Experience</p>
+            <h2>Consultations that are direct, respectful and easy to arrange.</h2>
+            <p>
+              The hospital prioritises clear communication so patients understand next steps,
+              available services and how to prepare for a visit.
+            </p>
+            <div class="mini-stats">
               <div>
                 <strong>Phone</strong>
-                <span>0806-552-1099, 0803-641-5952</span>
+                <span>Fastest for urgent needs</span>
+              </div>
+              <div>
+                <strong>WhatsApp</strong>
+                <span>Useful for visit enquiries</span>
               </div>
             </div>
-            <a class="btn btn--primary" href="#contact">Get Directions</a>
-          </div>
-          <div class="split__image">
-            <img
-              src="https://images.unsplash.com/photo-1504814532849-92734f4bdf0f?auto=format&fit=crop&w=1200&q=80"
-              alt="Hospital exterior"
-            />
           </div>
         </div>
       </section>
 
-      <section class="cta" id="contact">
-        <div class="container cta__inner reveal">
+      <section class="section consultation" id="consultation">
+        <div class="container consultation__inner reveal">
           <div>
-            <h2>Ready to schedule your visit?</h2>
-            <p>We respond quickly. Call or book online today.</p>
+            <p class="eyebrow">Request Consultation</p>
+            <h2>Call or WhatsApp the hospital to begin.</h2>
+            <p>
+              The major communication channels for consultation requests are phone and WhatsApp.
+              Use phone for time-sensitive care, and WhatsApp for general enquiries or visit
+              planning.
+            </p>
           </div>
-          <div class="cta__actions">
-            <a class="btn btn--primary" href="https://example.com/book-appointment"
-              >Book Appointment</a
-            >
-            <a class="btn btn--ghost" href="tel:08065521099">Call Emergency Line</a>
+          <div class="consultation__actions">
+            <a class="btn btn--primary" href="tel:+234805521099">Call +234-80-552-1099</a>
+            <a class="btn btn--outline" href="tel:+2348036415952">Call +234-803-641-5952</a>
+            <a class="btn btn--whatsapp" href="https://wa.me/2349162818631">WhatsApp Hospital</a>
           </div>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="container contact-grid reveal">
+          <div class="contact-copy">
+            <p class="eyebrow">Contact</p>
+            <h2>Send a message or visit the hospital.</h2>
+            <p>
+              Complete the form and your message will be prepared for the hospital enquiries email.
+              You can also contact the hospital directly by phone or WhatsApp.
+            </p>
+
+            <div class="details-list">
+              <div>
+                <strong>Address</strong>
+                <span>
+                  Shifa'ah Hospital premises, Behind Saatof Hotel, NIWA quarters, Adankolo,
+                  Lokoja, Kogi State, Nigeria.
+                </span>
+              </div>
+              <div>
+                <strong>Operating Hours</strong>
+                <span>24 hours daily, Monday to Sunday.</span>
+              </div>
+              <div>
+                <strong>Email</strong>
+                <a href="mailto:info@shifaahospital.com">info@shifaahospital.com</a>
+              </div>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contactForm" action="mailto:inquiries@shifaahospital.com" method="post" enctype="text/plain">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required />
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required />
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+
+            <button class="btn btn--primary" type="submit">Submit Message</button>
+            <p class="form-note" id="formNote" aria-live="polite">
+              Messages are routed to inquiries@shifaahospital.com.
+            </p>
+          </form>
         </div>
       </section>
     </main>
 
     <footer class="footer">
       <div class="container footer__inner">
-        <div>
-          <h3>Shifaah Hospital Lokoja</h3>
-          <p>Compassionate Care, Advanced Medicine</p>
-          <p>info@shifaahhospital.ng</p>
+        <a class="footer__brand" href="#home">
+          <img src="images/shifaah_logo.png" alt="Shifaah Hospital logo" />
+          <span>
+            <strong>Shifaah Hospital</strong>
+            <small>Lokoja, Kogi State</small>
+          </span>
+        </a>
+        <div class="footer__links">
+          <a href="#services">Services</a>
+          <a href="#consultation">Consultation</a>
+          <a href="#contact">Contact</a>
         </div>
-        <div>
-          <strong>Services</strong>
-          <a href="#services">Medical Services</a>
-          <a href="#services">Surgical Services</a>
-          <a href="#services">Pediatrics</a>
-        </div>
-        <div>
-          <strong>Resources</strong>
-          <a href="#resources">Patient Portal</a>
-          <a href="#resources">Insurance & Billing</a>
-          <a href="#resources">Forms</a>
-        </div>
-        <div>
-          <strong>Contact</strong>
-          <a href="tel:08065521099">0806-552-1099</a>
-          <a href="tel:08036415952">0803-641-5952</a>
-          <a href="#locations">Lokoja, Kogi State</a>
+        <div class="footer__contact">
+          <a href="tel:+234805521099">+234-80-552-1099</a>
+          <a href="tel:+2348036415952">+234-803-641-5952</a>
+          <a href="mailto:info@shifaahospital.com">info@shifaahospital.com</a>
         </div>
       </div>
-      <div class="footer__bottom">
-        <span>© 2026 Shifaah Hospital Lokoja. All rights reserved.</span>
-        <span>Privacy Policy (placeholder)</span>
+      <div class="container footer__bottom">
+        <span>© 2026 Shifaah Hospital. All rights reserved.</span>
       </div>
     </footer>
 

@@ -1,0 +1,21 @@
+hospital phone number: +234-80-552-1099, +234-803-641-5952, 
+address: shifa'ah Hospital premises, Beind saatof Hotel, NIWA quarters,
+Adankolo, lokoja, Kogi State, Nigeria.
+whatsapp number: +234 916-281-8631
+email: info@shifaahospital.com
+
+services offered: highlight obys and gynae, pediatrics, then continue with the remainning
+
+logo: /images/shifaah_logo.png
+
+request consultation: indicate their major means of communication (phone or whatapp)
+
+
+the contact section should include a form for users to fill out their name, email, and message, along with a submit button. 
+The form should be designed to be user-friendly and visually appealing. Additionally, the contact section should also include 
+the hospital's physical address and operating hours for easy reference.
+then once patient submit, we route info to hospital mail, inquiries@shifaahospital.com
+
+
+for image backgrounds used in various sections of the website, remeber to portray a hospital setting, remeber that the hospital is in nigerian,,
+so use images, faces and setting that 
